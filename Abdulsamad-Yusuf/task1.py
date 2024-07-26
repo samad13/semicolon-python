@@ -8,7 +8,9 @@ radius = int(input('put in the radius: '))
 
 length = int(input('put in the length: '))
 
-area = radius**2
+PI=3.142
+
+area =PI * radius**2
  
 volume = area * length
 
